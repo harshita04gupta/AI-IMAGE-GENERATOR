@@ -35,7 +35,7 @@ const ImageGenerator=()=> {
     <div className='ai-image-generator'>
       <div className='header'>AI Image <span>Generator</span></div>
       <div className="img-loading">
-        <div className="image"><img src={image_url==="/"? default_image:image_url} alt="ai generated image"/>
+        <div className="image"><img src={image_url==="/"? default_image:image_url} alt=""/>
         <div className="loading">
           <div className={loading?"loading-bar-full":"loading-bar"}></div>
             <div className={loading?"loading-text":"display-none"}>
